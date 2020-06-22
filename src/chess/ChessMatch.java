@@ -60,16 +60,8 @@ operation to place a piece passing the position in the coordinates of the chess
 	
 	private void initialSetup() {
 		 
-	        placeNewPiece('d', 2, new Rook(board, Color.WITHE));
-	        placeNewPiece('e', 2, new Rook(board, Color.WITHE));
-	        placeNewPiece('e', 1, new Rook(board, Color.WITHE));
-	        placeNewPiece('d', 1, new King(board, Color.WITHE));
-
-	        placeNewPiece('c', 7, new Rook(board, Color.BLACK));
-	        placeNewPiece('c', 8, new Rook(board, Color.BLACK));
-	        placeNewPiece('d', 7, new Rook(board, Color.BLACK));
-	        placeNewPiece('e', 7, new Rook(board, Color.BLACK));
-	        placeNewPiece('e', 8, new Rook(board, Color.BLACK));
-	        placeNewPiece('d', 8, new King(board, Color.BLACK));
+		placeNewPiece('b', 6, new Rook(board, Color.WITHE));
+		placeNewPiece('e', 8, new King(board, Color.BLACK));
+		placeNewPiece('e', 1, new King(board, Color.WITHE));
 	}
 }
